@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="header">
+    <div class="logo">
+        <a href="index.html">
+        <img src="Image/zom logo.avif" alt="" class="zom" id="log">
+        </a>
+        <input type="search" id="search" placeholder="Search resturant name or location...">
+    </div>
+    <div id="head">
+        <button id="Filter">Filter</button>
+        <button id="Offers">Offers</button>
+        <button id="Rating">Rating 4.5+</button>
+        <button id="Alcohol">Serves Alcohol</button>
+        <button id="Open">Open Now</button>
+    </div>
+    </div>
+    <!--filter popup-->
+    <div id="filterPopup" class="hidden">
+        <h3>Choose Filter</h3>
+        <div class="filterOption">
+        <input type="radio" id="sortByRating" name="filterOption" value="rating">
+        <label for="sortByRating">Sort By Rating</label>
+        </div>
+        <div class="filterOption">
+        <input type="radio" id="sortHightoLow" name="filterOption" value="highLow">
+        <label for="sortHightoLow">High to Low Price</label>
+        </div>
+        <div class="filterOption">
+        <input type="radio" id="sortLowtoHigh" name="filterOption" value="lowHigh">
+        <label for="sortLowtoHigh">Low to High Price</label>
+        </div>
+        <div class="filterOption">
+        <input type="radio" id="distanceOption" name="filterOption" value="distance">
+        <label for="distanceOption">Distance</label>
+        </div>
+        <button id="applyfilter">Apply</button>
+        <button id="closeFilter">Close</button>
+    </div>
+    <div class="image">
+        <img src="Image/pic4.webp" alt="" class="img">
+        <h1>Get Upto <br>20% Off</h1>
+        <h3> on your dinning bills</h3>
+        <button id="check">Check out all the resturants</button>
+    </div>
+    <!--insert card-->
+    <div id="root"></div>
+    <script src="first.js"></script>
+</body>
+</html>

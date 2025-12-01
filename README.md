@@ -39,9 +39,20 @@ Built with **HTML, CSS, and JavaScript**.
 - **CSS3** - Styling, Flexbox, Media Query
 - **JavaScript** - DOM Manipulation, Randomized Data Generation
 
+---
+
 ## ⚒️ How It Works
 
 - **second.js** - To generate random restaurants data (100 restaurants)
 - **first.js** - For DOM Manipulation
 - Users can **filter, sort, and search** restaurants
 - Fully **responsive** using media queries for mobile devices.
+
+---
+
+### **📌 Disclaimer**
+
+This project is a **non-commercial educational clone** of the original website. It is **not affiliated with, endorsed by, or connected to** the respective company in any way.
+All trademarks, logos, and brand assets belong to their **rightful owners**.
+This clone is built **only for learning and practice purposes**.
+
